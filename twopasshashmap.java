@@ -12,6 +12,7 @@ public class TwoPassHashMap {
         // Second pass: search
         for (int i = 0; i < nums.length; i++) {
             int need = target - nums[i];
+        for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(need) && map.get(need) != i) {
                 return new int[] {i, map.get(need)};
             }
