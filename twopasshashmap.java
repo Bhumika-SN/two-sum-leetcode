@@ -8,6 +8,7 @@ public class TwoPassHashMap {
         // First pass: build map
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
+        for (int i = 0; i < nums.length; i++) {
         }
         for (int i = 0; i < nums.length; i++) {
         // Second pass: search
