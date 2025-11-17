@@ -8,7 +8,7 @@ public class TwoPassHashMap {
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
         }
-
+        for (int i = 0; i < nums.length; i++) {
         // Second pass: search
         for (int i = 0; i < nums.length; i++) {
             int need = target - nums[i];
