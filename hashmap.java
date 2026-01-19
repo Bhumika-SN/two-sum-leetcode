@@ -13,7 +13,4 @@ public class HashMap {
         }
         return new int[0];
     }
-}
-
-.
-.
+}
