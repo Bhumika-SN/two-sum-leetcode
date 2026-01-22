@@ -9,6 +9,7 @@ public class TwoPointerSorted {
             paired[i][1] = i;
         }
 
+
         Arrays.sort(paired, (a, b) -> Integer.compare(a[0], b[0]));
 
         int left = 0, right = nums.length - 1;
