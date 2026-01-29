@@ -5,6 +5,11 @@ class ListNode {
     ListNode(int val) {
         this.val = val;
     }
+
+
+.
+
+
 }
 
 public class Solution {
