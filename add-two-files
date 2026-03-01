@@ -6,10 +6,6 @@ class ListNode {
         this.val = val;
     }
 
-
-.
-
-
 }
 
 public class Solution {
